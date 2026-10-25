@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "tycho-brahe-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "TYCHO",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "reduce_mural_quadrant_angles",
+          "description": "Calculates fractional arcminute atmospheric refraction corrections for star positions",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "observed_zenith_deg": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "observed_zenith_deg"
+            ]
+          }
+        },
+        {
+          "name": "measure_stellar_parallax_absence",
+          "description": "Proves SN 1572 was in distant celestial sphere beyond the moon via zero diurnal parallax",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "target_coordinates": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "target_coordinates"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
