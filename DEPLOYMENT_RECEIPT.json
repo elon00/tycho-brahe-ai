@@ -1,0 +1,14 @@
+{
+  "project": "tycho-brahe-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "BvmmjMwMwJGdTmWgZAnvMmyJn98nHb3RJckjcpXPKN1U",
+  "vault_account": "dhAjWa7xQeGPZWa19mtAGdLUwER4UFBLGDtCCqnG3aT",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "3tRBNXc6zP8s38kCRhYKmAxT3g9S8qdTiaATP2yEHp5CGPNNKDj2vyckibVhKZ8GudXtNsmiHmfZkERXwRCLcZqe",
+  "account_tx": "YSjD99RJjPszT5ZVkKqhAHctYEQXe7wNqQrudEPyq5AYHogu5VWjMyqPeVafx8ciGwK75VLUwxzy3sWH8KDPr9Y",
+  "mint_tx": "2mnCBpnKPrYCLP289fxc9BQ78uUK1vrNnV6oQD6yajkV4JN1Adfwc16vPjY9ve8Vqaj6DNwncsmBduVoL3Z17ebw",
+  "solana_explorer_mint": "https://explorer.solana.com/address/BvmmjMwMwJGdTmWgZAnvMmyJn98nHb3RJckjcpXPKN1U?cluster=devnet",
+  "timestamp": "2026-10-26 17:01:26 UTC"
+}
